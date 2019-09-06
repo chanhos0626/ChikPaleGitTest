@@ -1,0 +1,5 @@
+<apex:page showHeader="ture" sidebar="true" standardController="Opportunity" >
+    <script type="text/javascript">
+        document.getElementById("189:3777;a").value = 'test';
+    </script>
+</apex:page>

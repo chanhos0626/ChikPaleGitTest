@@ -1,0 +1,48 @@
+.THIS .width100{
+    width:100%;
+}
+.THIS .width80{
+    width:80%;
+}
+.THIS .width60{
+    width:60%;
+}
+.THIS .width40{
+    width:40%;
+}
+.THIS .width20{
+    width:20%;
+}
+.THIS .width100 label{
+    display:none;
+}
+.THIS .width40 label{
+    display:none;
+}
+.THIS .width20 label{
+    display:none;
+}
+.THIS .LEFTFLOAT{
+    float:left;
+}
+.THIS .PADDINGLEFT5EM{
+    padding-left:.5em;
+}
+.THIS .MARGIN5EM{
+    margin:.5em;
+}
+.THIS .paddingleft25{
+	padding-left: 2.5rem;    
+}
+.THIS .height220{
+    height:220px;
+}
+.THIS .paddingtop{
+    Padding-top:5px;
+}
+.THIS .padding5rem{
+    Padding:0 .5rem;
+}
+.THIS .label_hiddens .slds-form-element__label{
+    display:none !important;
+}

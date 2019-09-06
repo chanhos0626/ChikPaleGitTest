@@ -1,0 +1,9 @@
+<aura:component controller="Test0000000002" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name='test' type='string' default=''/>
+    <lightning:layout>
+        <lightning:layoutitem>
+            <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
+        </lightning:layoutitem>
+    </lightning:layout>
+    
+</aura:component>

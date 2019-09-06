@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <context>All</context>
+    <description>https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8ccklgt3ps&amp;submodules=panorama</description>
+    <endpointUrl>https://openapi.map.naver.com</endpointUrl>
+    <isActive>true</isActive>
+</CspTrustedSite>

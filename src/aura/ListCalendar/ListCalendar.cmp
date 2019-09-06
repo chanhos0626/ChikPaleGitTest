@@ -1,0 +1,29 @@
+<aura:component controller="ListCalendarController" implements="force:appHostable" >
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:attribute name="Data" type="Object[]" default="" />
+    <aura:attribute name="HoliDate" type="Object[]" default="" />
+    <table class="slds-table slds-table_bordered slds-max-medium-table_stacked-horizontal">
+        <thead>
+            <tr class="slds-line-height_reset">
+                <th class="slds-text-title_caps slds-size_1-of-12" scope="col" style="text-align: center;">
+                    <div class="slds-truncate" title="날짜">날짜</div>
+                </th>
+                <th class="slds-text-title_caps slds-size_11-of-12" scope="col" style="text-align: center;">
+                    <div class="slds-truncate" title="시공 가능 대리점">시공 가능 대리점</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <aura:iteration items="{!v.Data}" var="item" indexVar="index"> 
+                <tr class="slds-hint-parent">
+                    <th class=" slds-size_1-of-12" data-label="날짜" scope="row">
+                        <ui:outputText value="{!item.Date}" class="slds-truncate" />
+                    </th>
+                    <th class=" slds-size_11-of-12" data-label="시공 가능 대리점" scope="row">
+                        <ui:outputText value="{!item.NonEvent}" class="slds-truncate" />
+                    </th>
+                </tr>
+            </aura:iteration>
+        </tbody>
+    </table>
+</aura:component>

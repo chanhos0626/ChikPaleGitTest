@@ -1,0 +1,13 @@
+<apex:page standardController="Event">
+	<style>
+        .floatLeft{
+        	float:left;
+        }
+    </style>
+    <!--<div class="floatLeft">
+    	<apex:iframe src="{!Event.t1__c}" scrolling="false" id="theIframe1" width="200%" height="450px"/>    
+    </div>-->
+    <div class="floatLeft">
+    	<apex:iframe src="{!Event.t2__c}" scrolling="false" id="theIframe2" width="200%" height="450px"/>    
+    </div>
+</apex:page>

@@ -1,0 +1,21 @@
+<apex:page showHeader="false" sidebar="false" standardController="Account" extensions="SalesResultAutoController">
+    <apex:form >
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="">Id</th>
+                    <th onclick="">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+            {!ac1}
+                <!--<apex:repeat value="{!ac1}" var="line">
+                    <tr>
+                        <td>{!line.Id}</td>
+                        <td>{!line.Name}</td>
+                    </tr>
+                </apex:repeat>-->
+            </tbody>
+        </table>
+    </apex:form>
+</apex:page>
